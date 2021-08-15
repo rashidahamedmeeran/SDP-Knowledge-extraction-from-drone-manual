@@ -21,5 +21,5 @@ This program allows the user to extract features from the drone manual automatic
   - anafi_user_guide_v6.7.0.1.pdf
   - Elios 2 - Brochure EN LW.pdf
   
-**Sample Output:**
+**Sample Output for 5 Drone manuals:**
 ![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/Sample_output.jpg?raw=true)
