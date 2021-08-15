@@ -24,7 +24,9 @@ This program allows the user to extract features from the drone manual automatic
 **Sample Output for 5 Drone manuals:**
 
 Graph Database on neo4j:
+
 ![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/Sample_output.jpg?raw=true)
 
 Terminal output:
+
 ![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/terminal_output.jpg?raw=true)
