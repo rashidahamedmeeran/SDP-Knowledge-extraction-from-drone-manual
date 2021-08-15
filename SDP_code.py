@@ -4,6 +4,14 @@ from pyinflect import getAllInflections
 from nltk.tokenize import word_tokenize
 from neo4j import GraphDatabase, basic_auth
 
+driver = GraphDatabase.driver("bolt://3.84.148.75:7687",auth=basic_auth("neo4j", "bytes-bridge-markets"))
+
+files = ['Freefly ALTA 8 Specifications - Dimensions, Weight & Payload.pdf',
+         'alta-8-pro-manual.pdf',
+         'Matrice_600_User_Manual_v1_EN_1208.pdf',
+         'anafi_user_guide_v6.7.0.1.pdf',
+         'Elios 2 - Brochure EN LW.pdf']
+
 def extract_text(file_name):
     text = textract.process(file_name).decode("utf-8")
     page_pattern = re.compile(r'(^\x0c)\x0c')
@@ -297,13 +305,6 @@ def find_emergency_procedure(text,file_name):
         print('\t'+'not specified')
         results = session.write_transaction(lambda tx: tx.run("MATCH (m:Drone_Manual {name: $name})-[p:Prop]-(f:Features{name: 'Emergency_procedure'}) MERGE (f)-[t:Text]-(emergency: emergency_procedures {name:$emergency_procedure})", name=file_name,emergency_procedure='not specified').data())
 
-driver = GraphDatabase.driver("bolt://3.228.3.123:7687",auth=basic_auth("neo4j", "turbulence-pushup-standardizations"))
-
-files = ['Freefly ALTA 8 Specifications - Dimensions, Weight & Payload.pdf',
-         'alta-8-pro-manual.pdf',
-         'Matrice_600_User_Manual_v1_EN_1208.pdf',
-         'anafi_user_guide_v6.7.0.1.pdf',
-         'Elios 2 - Brochure EN LW.pdf']
 
 for file_name in files:
     
