@@ -28,6 +28,7 @@ This program allows the user to extract features from the drone manual automatic
 ![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/Sample_output.jpg?raw=true)
 
   **Terminal output:**
+'''
 ================================================================
 Freefly ALTA 8 Specifications - Dimensions, Weight & Payload.pdf
 ================================================================
@@ -213,5 +214,5 @@ Limitations:
 Emergency procedures:
 --------------------
         not specified
-        
+'''
 ![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/terminal_output.jpg?raw=true)
