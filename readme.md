@@ -22,4 +22,4 @@ This program allows the user to extract features from the drone manual automatic
   - Elios 2 - Brochure EN LW.pdf
   
 **Sample Output:**
-![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/Sample_output.jpg?raw=true)
+![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/Sample_output.jpg?raw=true)
