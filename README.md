@@ -27,7 +27,4 @@ Graph Database on neo4j:
 ![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/Sample_output.jpg?raw=true)
 
 Terminal output:
-![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/terminal_output1.jpg?raw=true)
-![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/terminal_output2.jpg?raw=true)
-![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/terminal_output3.jpg?raw=true)
-![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/terminal_output4.jpg?raw=true)
+![Sample Output](https://github.com/rashidahamedmeeran/SDP-Knowledge-extraction-from-drone-manual/blob/main/images/terminal_output.jpg?raw=true)
