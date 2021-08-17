@@ -4,7 +4,7 @@ from pyinflect import getAllInflections
 from nltk.tokenize import word_tokenize
 from neo4j import GraphDatabase, basic_auth
 
-driver = GraphDatabase.driver("bolt://3.84.148.75:7687",auth=basic_auth("neo4j", "bytes-bridge-markets"))
+driver = GraphDatabase.driver("bolt://44.197.246.185:7687",auth=basic_auth("neo4j", "alcohol-tunnel-expenses"))
 
 files = ['Freefly ALTA 8 Specifications - Dimensions, Weight & Payload.pdf',
          'alta-8-pro-manual.pdf',
